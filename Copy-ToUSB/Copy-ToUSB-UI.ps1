@@ -64,30 +64,37 @@ $listBoxFiles.Location = New-Object System.Drawing.Point(20, 105)
 $listBoxFiles.Size = New-Object System.Drawing.Size(450, 150)
 $form.Controls.Add($listBoxFiles)
 
+# Add Hach Files Button
+$buttonHachFiles = New-Object System.Windows.Forms.Button
+$buttonHachFiles.Location = New-Object System.Drawing.Point(480, 105)
+$buttonHachFiles.Size = New-Object System.Drawing.Size(80, 23)
+$buttonHachFiles.Text = "Hach Files"
+$form.Controls.Add($buttonHachFiles)
+
 # Add Files Button
 $buttonAddFiles = New-Object System.Windows.Forms.Button
-$buttonAddFiles.Location = New-Object System.Drawing.Point(480, 105)
+$buttonAddFiles.Location = New-Object System.Drawing.Point(480, 140)
 $buttonAddFiles.Size = New-Object System.Drawing.Size(80, 23)
 $buttonAddFiles.Text = "Add Files"
 $form.Controls.Add($buttonAddFiles)
 
 # Add Folder Button
 $buttonAddFolder = New-Object System.Windows.Forms.Button
-$buttonAddFolder.Location = New-Object System.Drawing.Point(480, 140)
+$buttonAddFolder.Location = New-Object System.Drawing.Point(480, 175)
 $buttonAddFolder.Size = New-Object System.Drawing.Size(80, 23)
 $buttonAddFolder.Text = "Add Folder"
 $form.Controls.Add($buttonAddFolder)
 
 # Remove Button
 $buttonRemove = New-Object System.Windows.Forms.Button
-$buttonRemove.Location = New-Object System.Drawing.Point(480, 175)
+$buttonRemove.Location = New-Object System.Drawing.Point(480, 210)
 $buttonRemove.Size = New-Object System.Drawing.Size(80, 23)
 $buttonRemove.Text = "Remove"
 $form.Controls.Add($buttonRemove)
 
 # Clear Button
 $buttonClear = New-Object System.Windows.Forms.Button
-$buttonClear.Location = New-Object System.Drawing.Point(480, 210)
+$buttonClear.Location = New-Object System.Drawing.Point(480, 245)
 $buttonClear.Size = New-Object System.Drawing.Size(80, 23)
 $buttonClear.Text = "Clear All"
 $form.Controls.Add($buttonClear)
@@ -152,8 +159,8 @@ function Populate-DrivesList {
     }
 }
 
-# Function to pre-load listbox files with Hach files
-function Pre-Load-Hach-Files {
+# Function to add Hach files
+function Add-Hach-Files {
     $hachFiles = Get-Location | Get-ChildItem -Filter "*.swu"
     $hachFolders = Get-Location | Get-ChildItem -Directory | Where-Object { $_.Name -in @("Hach", "update")}
 
@@ -250,6 +257,7 @@ function Copy-FilesToUSB {
 
 # Wire up event handlers
 $buttonRefresh.Add_Click({ Populate-DrivesList })
+$buttonHachFiles.Add_Click({ Add-Hach-Files })
 $buttonAddFiles.Add_Click({ Add-Files })
 $buttonAddFolder.Add_Click({ Add-Folder })
 $buttonCopy.Add_Click({ Copy-FilesToUSB })
@@ -263,7 +271,9 @@ $numericMaxSize.Add_ValueChanged({ Populate-DrivesList })
 
 # Initial population of drives
 Populate-DrivesList
-Pre-Load-Hach-Files
+
+#Pre-load Hach Files
+Add-Hach-Files
 
 # Show the form
 [void]$form.ShowDialog()
