@@ -222,7 +222,7 @@ function Copy-FilesToUSB {
     $errors = @()
 
     for ($i = 0; $i -lt $listBoxFiles.Items.Count; $i++) {
-        $item = $itemsToCopy.Items[$i]
+        $item = $listBoxFiles.Items[$i]
         
         try {
             if (Test-Path -Path $item -PathType Container) {
