@@ -161,7 +161,7 @@ function Populate-DrivesList {
 
 # Function to add Hach files
 function Add-Hach-Files {
-    $hachFiles = Get-Location | Get-ChildItem -Filter "*.swu"
+    $hachFiles = Get-Location | Get-ChildItem -File | Where-Object { $_.Extension -in @(".swu",".bin")}
     $hachFolders = Get-Location | Get-ChildItem -Directory | Where-Object { $_.Name -in @("Hach", "update")}
 
     foreach ($file in $hachFiles) {
