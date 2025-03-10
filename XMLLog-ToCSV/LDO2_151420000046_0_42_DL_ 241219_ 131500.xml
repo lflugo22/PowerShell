@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="HachDatalog.xsl"?>
+<?xml-stylesheet type="text/xsl" href="HachDatalog-ToCSV.xsl"?>
+<!--  edited by Robert Yang (Hach Company) -->
+
+<Datalog>
+
+    <DeviceInfo>Serial Number: 151420000046  </DeviceInfo>
+    <DeviceInfo>Manufacture ID: 0  </DeviceInfo>
+    <DeviceInfo>Device Name: LDO2  </DeviceInfo>
+    <DeviceInfo>Device ID: 42  </DeviceInfo>
+    <DeviceInfo>Device Location: LDO220000046  </DeviceInfo>
+    <DeviceInfo>Log Channels:  2  </DeviceInfo>
+    <DeviceInfo>Software Version: 1.29  </DeviceInfo>
+
+   <Entry>
+        <Time>  TIME  </Time>
+        <CH1>
+             <Data>  DO ppm  </Data>
+        </CH1>
+        <CH2>
+             <Data>  TEMP C  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 01:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.811757  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.600233  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 01:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.816172  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.603205  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 01:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.817620  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.624035  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 02:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.815389  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.649294  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 02:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.813136  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.679028  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 02:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.809058  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.716188  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 02:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.805042  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.751862  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 03:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.797777  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.763739  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 03:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.791196  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.808323  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 03:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.794403  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.805347  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 03:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.790665  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.815752  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 04:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.805551  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.827633  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 04:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.798494  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.774139  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 04:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.803559  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.735512  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 04:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.797935  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.756311  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 05:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.799188  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.762262  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 05:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.798351  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.772663  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 05:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.799726  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.742937  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 05:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.806461  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.708765  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 06:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.817577  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.683498  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 06:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.816311  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.680525  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 06:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.808145  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.668631  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 06:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.810253  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.627008  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 07:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.821739  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.563051  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 07:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.836753  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.475285  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 07:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.832405  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.426184  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 07:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.844800  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.351763  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 08:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.850826  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.292210  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 08:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.851021  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.281792  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 08:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.841843  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.271374  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 08:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.844460  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.241575  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 09:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.847091  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.243069  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 09:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.856952  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.155170  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 09:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.882873  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.040401  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 09:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.893669  </Data>
+        </CH1>
+        <CH2>
+             <Data>  23.010597  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 10:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.901000  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.964361  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 10:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.899806  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.947950  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 10:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.905714  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.909166  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 10:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.911847  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.891270  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 11:00:00 PM  </Time>
+        <CH1>
+             <Data>  7.915441  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.855457  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 11:15:00 PM  </Time>
+        <CH1>
+             <Data>  7.911629  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.849493  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 11:30:00 PM  </Time>
+        <CH1>
+             <Data>  7.922654  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.783812  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/19/2024 11:45:00 PM  </Time>
+        <CH1>
+             <Data>  7.923676  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.759920  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 12:00:00 AM  </Time>
+        <CH1>
+             <Data>  7.923997  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.736032  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 12:15:00 AM  </Time>
+        <CH1>
+             <Data>  7.920891  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.719599  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 12:30:00 AM  </Time>
+        <CH1>
+             <Data>  7.930871  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.658365  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 12:45:00 AM  </Time>
+        <CH1>
+             <Data>  7.919383  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.661367  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 01:00:00 AM  </Time>
+        <CH1>
+             <Data>  7.942421  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.580666  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 01:15:00 AM  </Time>
+        <CH1>
+             <Data>  7.938543  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.553780  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 01:30:00 AM  </Time>
+        <CH1>
+             <Data>  7.945275  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.501444  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 01:45:00 AM  </Time>
+        <CH1>
+             <Data>  7.952203  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.462580  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 02:00:00 AM  </Time>
+        <CH1>
+             <Data>  7.953717  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.437157  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 02:15:00 AM  </Time>
+        <CH1>
+             <Data>  7.961787  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.407228  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 02:30:00 AM  </Time>
+        <CH1>
+             <Data>  7.968093  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.344395  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 02:45:00 AM  </Time>
+        <CH1>
+             <Data>  7.981720  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.290524  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 03:00:00 AM  </Time>
+        <CH1>
+             <Data>  7.990426  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.256075  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 03:15:00 AM  </Time>
+        <CH1>
+             <Data>  7.987633  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.224648  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 03:30:00 AM  </Time>
+        <CH1>
+             <Data>  7.982246  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.221653  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 03:45:00 AM  </Time>
+        <CH1>
+             <Data>  7.989497  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.169216  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 04:00:00 AM  </Time>
+        <CH1>
+             <Data>  8.004853  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.097313  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 04:15:00 AM  </Time>
+        <CH1>
+             <Data>  8.010822  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.062836  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 04:30:00 AM  </Time>
+        <CH1>
+             <Data>  8.019548  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.023867  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 04:45:00 AM  </Time>
+        <CH1>
+             <Data>  8.016084  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.011862  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 05:00:00 AM  </Time>
+        <CH1>
+             <Data>  8.016779  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.987875  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 05:15:00 AM  </Time>
+        <CH1>
+             <Data>  8.032658  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.912880  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 05:30:00 AM  </Time>
+        <CH1>
+             <Data>  8.037878  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.924879  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 05:45:00 AM  </Time>
+        <CH1>
+             <Data>  8.033630  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.944384  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 06:00:00 AM  </Time>
+        <CH1>
+             <Data>  8.034288  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.929396  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 06:15:00 AM  </Time>
+        <CH1>
+             <Data>  8.043154  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.885874  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 06:30:00 AM  </Time>
+        <CH1>
+             <Data>  8.047058  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.843868  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 06:45:00 AM  </Time>
+        <CH1>
+             <Data>  8.049417  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.852875  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 07:00:00 AM  </Time>
+        <CH1>
+             <Data>  8.033414  </Data>
+        </CH1>
+        <CH2>
+             <Data>  21.956385  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 07:15:00 AM  </Time>
+        <CH1>
+             <Data>  7.996906  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.112293  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 07:30:00 AM  </Time>
+        <CH1>
+             <Data>  7.988610  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.185711  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 07:45:00 AM  </Time>
+        <CH1>
+             <Data>  7.978531  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.271046  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 08:00:00 AM  </Time>
+        <CH1>
+             <Data>  7.979211  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.262062  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 08:15:00 AM  </Time>
+        <CH1>
+             <Data>  7.986158  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.178217  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 08:30:00 AM  </Time>
+        <CH1>
+             <Data>  7.988162  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.148245  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 08:45:00 AM  </Time>
+        <CH1>
+             <Data>  7.999759  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.110786  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 09:00:00 AM  </Time>
+        <CH1>
+             <Data>  8.003086  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.086809  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 09:15:00 AM  </Time>
+        <CH1>
+             <Data>  8.006557  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.059843  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 09:30:00 AM  </Time>
+        <CH1>
+             <Data>  8.004191  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.077835  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 09:45:00 AM  </Time>
+        <CH1>
+             <Data>  8.001576  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.076328  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 10:00:00 AM  </Time>
+        <CH1>
+             <Data>  8.004378  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.058338  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 10:15:00 AM  </Time>
+        <CH1>
+             <Data>  8.004016  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.062836  </Data>
+        </CH2>
+   </Entry>
+   <Entry>
+        <Time>  12/20/2024 10:30:00 AM  </Time>
+        <CH1>
+             <Data>  8.001579  </Data>
+        </CH1>
+        <CH2>
+             <Data>  22.073338  </Data>
+        </CH2>
+   </Entry>
+
+
+</Datalog>
